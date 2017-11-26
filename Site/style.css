@@ -1,0 +1,260 @@
+@font-face {
+	font-family: 'fira_sansblack';
+	src: url('bootstrap-3.3.7/dist/fonts/firasans-black-webfont.woff') format('woff2'),
+	url('bootstrap-3.3.7/dist/fonts/firasans-black-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+
+}
+
+body {
+	background-color: #245c7a;
+	color: #525252;
+}
+
+main {
+	margin-bottom: 20px;
+}
+
+[class*="col-"],
+footer,
+illustration {
+	/*border: 2px solid black;*/
+	border-radius: 5px;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+	align-content: center;
+}
+
+.para,
+.page-header {
+	background-color: #245c7a;
+	color: white;
+}
+
+footer {
+	background-color: #525252;
+	color: white;
+	padding-top: 10px;
+}
+
+.para {
+	margin-top: 20px 20px;
+}
+
+
+
+a,
+h4 {
+	color: white;
+}
+
+header {
+	height: 600px;
+	background-image: url(Images/homepagebackground.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+.nav {
+	float: right;
+	font-size: 1em;
+	color: white;
+	line-height: 60px;
+}
+
+p {
+	text-align: justify;
+}
+
+
+.presentation {
+	background-color: white;
+	color: #525252;
+	border-color: #525252;
+	border-style: inset;
+	border-width: 1px;
+	text-align: justify;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+}
+
+li {
+	list-style: none;
+}
+
+h1,
+h4 {
+	text-align: center;
+}
+
+.reseaux {
+	float: right;
+}
+
+.illustration {
+	margin: 20px 20px;
+
+}
+
+
+
+button:hover;
+a:active,
+a:checked,
+	{
+	color: white;
+	background-color: none;
+	text-decoration: none;
+}
+
+#sloganmd {
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: monospace;
+	margin-top: 150px;
+	text-transform: uppercase;
+
+}
+
+a:hover {
+	color: #000;
+	background-color: none;
+	text-decoration: none;
+}
+
+#sloganxs {
+	color: white;
+	text-align: center;
+
+	position: relative;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: monospace;
+	margin-top: 50px;
+	text-transform: uppercase;
+
+}
+
+nav li {
+	color: white;
+}
+
+.cta,
+	{
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 0px;
+}
+
+.btn-lg {
+	background-color: #245c7a;
+}
+
+#travail {
+	color: white;
+}
+
+.dropdown-toggle {
+	background-color: none;
+}
+
+.input-group {
+	margin-top: 20px;
+
+}
+
+
+figure {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.reseaux {
+	margin-bottom: 10px;
+}
+
+img {
+	border-radius: 5px;
+
+}
+
+.jumbotron {
+	background-color: white;
+	color: #525252;
+}
+
+.btn-primary,
+	{
+	background-color: white;
+	color: #525252;
+	margin: 20px;
+}
+
+.modal-content p {
+	margin: 10px;
+	text-align: justify;
+	font-size: 20px;
+}
+
+.interventions {
+	background-color: #4E9DC6;
+	padding: 5px;
+}
+
+/*gestion du menu responsive qui va se transformer en menu hamburger Utilisation d'un tutoriel en ligne pour le réaliser*/
+
+.navbar-toggle {
+	float: right;
+	margin: 0;
+	height: 50px;
+	width: 50px;
+
+
+}
+
+.navbar-toggle .icon-bar {
+	width: 28px;
+	background: #fff;
+	transition: .5s ease;
+}
+
+.navbar-toggle.collapsed .icon-bar:nth-child(2) {
+	transform: rotate(0)translateY(0)translateX(0);
+}
+
+.navbar-toggle.collapsed .icon-bar:nth-child(3) {
+	opacity: 1
+}
+
+.navbar-toggle.collapsed .icon-bar:nth-child(4) {
+	transform: rotate(0)translateY(0)translateX(0);
+}
+
+.navbar-toggle .icon-bar:nth-child(2) {
+	transform: rotate(-45deg)translateY(5px)translateX(-5px);
+}
+
+.navbar-toggle .icon-bar:nth-child(3) {
+	opacity: 0
+}
+
+.navbar-toggle .icon-bar:nth-child(4) {
+	transform: rotate(45deg)translateY(-4px)translateX(-3px);
+}
